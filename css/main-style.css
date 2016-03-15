@@ -11,8 +11,13 @@ p {
   text-align: center;
 }
 
-body {
-  background-color: #FF9900;
+html {
+    background: url("http://edugeography.com/images/bahamas/bahamas-09.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
 }
 
 h3 {
@@ -25,13 +30,32 @@ h2 {
   font-family: times;
   text-align: center;
 }
-ul {
+p {
   font-style: oblique;
   text-align: center;
   font-size: 32pt;
   text-decoration: inherit;
+  color: crimson;
 
 }
 li {
   text-align: center;
+}
+
+header {
+    height:75px;
+    background:cyan;
+    border:1px solid #CCC;
+    width:855px;
+    margin:0px auto;
+    font-size: 20pt;
+    text-align: center;
+    text
+}
+h5 {
+  text-align: center;
+  font-size: 45pt;
+  text-decoration: inherit;
+  color: crimson;
+  text-decoration: underline;
 }
